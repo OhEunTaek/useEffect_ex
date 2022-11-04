@@ -18,11 +18,11 @@ function App() {
 	}, [count]);
 
 	useEffect(() => {
-		console.log('카운트가 변화되었습니다');
+		console.log('카운트가 변화되어 랜더링 되었습니다');
 	}, [count]);
 
 	useEffect(() => {
-		console.log('네임이 바뀌었습니다');
+		console.log('네임이 변화되어 랜더링 되었습니다');
 	}, [name]);
 
 	return (
